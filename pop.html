@@ -1,0 +1,55 @@
+
+<html>
+<head>
+<title> drop down menu bar</title>
+<style>
+*{
+margin: 0px;
+padding: 0px;
+}
+ul{
+list-style-type:none;
+}
+ul li{
+float: left;
+width: 200px;
+height: 50px
+background-color:aqua;
+font-size:10px
+text-align:center;
+line-height:50px;
+}
+ul li a{
+text-decoration:none;
+color:black;
+display:block;
+}
+ul li a:hover{
+background-color:green;
+color:white;
+}
+ul li ul li{
+display:none;
+}
+ul li:hover ul li{
+display:block;
+}
+
+</style>
+</head>
+<body>
+<ul>
+<li> <a href="#">Home</a></li>
+<li> <a href="#">Tutorials</a>
+<ul>
+<li> <a href="#">Html5</a></li>
+<li> <a href="#">Css3</a></li>
+<li> <a href="#">Java</a></li>
+<li> <a href="#">Php</a></li>
+</ul>
+</li>
+<li> <a href="#">About Us</a></li>
+<li> <a href="#">Contact</a></li>
+</ul>
+</body>
+</html>
